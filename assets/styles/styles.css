@@ -1,0 +1,908 @@
+html {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.head {
+    display: flex;
+    margin-right: 50px;
+}
+
+.booki-logo1 {
+    display: none;
+}
+
+/* Hébergements */
+
+.Heb {
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+/* activity */
+
+.Act {
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    color: #0065fc;
+    border-top: solid 3px #0065fc;
+}
+
+.header a:focus {
+    color: black;
+    border-top: solid 3px #0065fc;
+}
+
+.search {
+    margin-top: 20px;
+    height: 64px;
+    width: 521px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+
+}
+
+.search-bare {
+    height: 60px;
+    width: 340px;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: 64px;
+    padding-left: 25px;
+    border: hidden;
+}
+
+.search-bt {
+    background-color: #0065FC;
+    margin-top: 2px;
+    height: 60px;
+    width: 115px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: hidden;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+.recherche-logo {
+    display: none;
+}
+
+.position-logo {
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 58px;
+    width: 58px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.f-card {
+    height: 64px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: #e6e6e6;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding-right: 2px;
+}
+
+.fc-text {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+    width:auto;
+    background-color: white;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.fc-logo {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    width: 64px;
+    background-color: #DEEBFF;
+    color: #0065fc;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.filtre a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.bc-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.i-icon {
+    display: flex;
+    background-color: #e6e6e6;
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.ii-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    color: #0065fc;
+}
+
+.log-mars {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    border-radius: 25px;
+    width: 1305px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.log-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: min-content;
+    width: 410px;
+    height: 325px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card-pose {
+    margin: 5px;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-text {
+    margin-top: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.card-price {
+    width: 300px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.card-not {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+    width: 125px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.on {
+    color: #0065fc;
+}
+
+.off {
+    color: #e6e6e6;
+}
+
+.lm-first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.HM {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.AP {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-card {
+    background-color: white;
+    width: 473px;
+    height: 244px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.pc-pose {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px
+}
+
+.pc-img {
+    object-fit: cover;
+    height: 230px;
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 7px;
+}
+
+.pc-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.pc-text {
+width: 200px;
+}
+
+.pc-price {
+    width: 350;
+}
+
+.pc-not {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 125px;
+    font-size: 25px;
+
+}
+
+.populaire {
+    background-color: #e6e6e6;
+    width: 490px;
+    height: 830px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.log {
+    display: flex;
+}
+
+.lpp p {
+    color: black;
+    font-size: 40px;
+}
+
+.lpp b {
+    color: black;
+    font-size: 30px;
+}
+
+.lpp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+.log a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.activite-mars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.cont {
+    height: 550px;
+    width: 400px;
+}
+
+.cont-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 550px;
+    width: 400px;
+}
+
+.a-minicard {
+    height: 260px;
+    width: 390px;
+}
+
+.a-card {
+    height: 540px;
+    width: 390px;
+}
+
+.ac-img {
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 450px;
+    width: 390px;
+}
+
+.acm-img  {
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 200px;
+    width: 390px;
+}
+
+.ac-text {
+    margin: 10px;
+}
+
+.acm-text {
+    margin: 10px;
+}
+
+.ac-box {
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #e6e6e6;
+    height: 100px;
+    width: 390px;
+    margin-top: -6px;
+}
+
+.acm-box {
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #e6e6e6;
+    height: 60px;
+    width: 390px;
+    margin-top: -6px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e6e6e6;
+    margin-top: 20px;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.propo {
+    margin-left: 100px;
+}
+
+.Hebergement {
+    margin-left: 200px;
+}
+
+.assistance {
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    html {
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .booki-logo {   
+        display: none;
+    }
+
+    .booki-logo1 {
+        display: block;
+    }
+
+    /* Hébergements */
+    
+    .Heb {
+        padding-right: 50px;
+        margin-top: 50px;
+    }
+    
+    /* activity */
+    
+    .Act {
+        padding-right: 50px;
+        margin-top: 50px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .header a:hover {
+        color: #0065fc;
+        border-bottom: solid 3px #0065fc;
+    }
+    
+    .header a:focus {
+        color: black;
+        border-bottom: solid 3px #0065fc;
+    }
+    
+    .search {
+        margin-top: 20px;
+        height: 64px;
+        width: 361px;
+        background-color: #e6e6e6;
+        border-radius: 10px;
+    
+    }
+    
+    .search-bare {
+        height: 60px;
+        width: 225px;
+        font-size: 20px;
+        margin-top: 2px;
+        margin-left: 64px;
+        padding-left: 25px;
+        border: hidden;
+    }
+    
+    .search-bt {
+        background-color: #0065FC;
+        margin-top: 2px;
+        height: 60px;
+        width: 70px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border: hidden;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .recherche {
+        display: none;
+    }
+
+    .recherche-logo {
+        display: block;
+    }
+    
+    .position-logo {
+        margin-top: 2px;
+        margin-left: 2px;
+        height: 58px;
+        width: 58px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    }
+    
+    .filtre {
+        display: flex;
+        flex-direction: row;
+        align-items:  center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .f-card {
+        height: 64px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        background-color: #e6e6e6;
+        border-radius: 50px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        padding-right: 2px;
+    }
+    
+    .fc-text {
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 60px;
+        width:auto;
+        background-color: white;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .fc-logo {
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 64px;
+        width: 64px;
+        background-color: #DEEBFF;
+        color: #0065fc;
+        font-size: 35px;
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    
+    .filtre a:hover {
+        color: rgb(100, 100, 100);
+    }
+    
+    .bc-log {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .i-icon {
+        display: flex;
+        background-color: #e6e6e6;
+        height: 34px;
+        width: 34px;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+    .ii-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        color: #0065fc;
+    }
+    
+    .log-mars {
+        display: flex;
+        flex-direction: column;
+        background-color: #e6e6e6;
+        border-radius: 25px;
+        width: 1305px;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    
+    .log-card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: min-content;
+        width: 410px;
+        height: 325px;
+        border-radius: 25px;
+        margin-left: 10px;
+    }
+    
+    .card-pose {
+        margin: 5px;
+    }
+    
+    .card-img {
+        object-fit: cover;
+        height: 200px;
+        width: 400px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    
+    .card-text {
+        margin-top: 10px;
+        height: 10px;
+        margin-left: 10px;
+    }
+    
+    .card-price {
+        width: 300px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    
+    .card-not {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -65px;
+        width: 125px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    
+    .on {
+        color: #0065fc;
+    }
+    
+    .off {
+        color: #e6e6e6;
+    }
+    
+    .lm-first-line {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .lm-second-line {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .HM {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .AP {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .p-card {
+        background-color: white;
+        width: 473px;
+        height: 244px;
+        border-radius: 25px;
+        margin-left: 10px;
+    }
+    
+    .pc-pose {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 5px
+    }
+    
+    .pc-img {
+        object-fit: cover;
+        height: 230px;
+        width: 200px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        margin-top: 7px;
+    }
+    
+    .pc-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .pc-text {
+    width: 200px;
+    }
+    
+    .pc-price {
+        width: 350;
+    }
+    
+    .pc-not {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 125px;
+        font-size: 25px;
+    
+    }
+    
+    .populaire {
+        background-color: #e6e6e6;
+        width: 490px;
+        height: 830px;
+        border-radius: 25px;
+        margin-left: 10px;
+    }
+    
+    .log {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .lpp p {
+        color: black;
+        font-size: 40px;
+    }
+    
+    .lpp b {
+        color: black;
+        font-size: 30px;
+    }
+    
+    .lpp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+    
+    .log a:hover {
+        color: rgb(100, 100, 100);
+    }
+    
+    .activite-mars {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    
+    .cont {
+        height: 550px;
+        width: 400px;
+    }
+    
+    .cont-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 550px;
+        width: 400px;
+    }
+    
+    .a-minicard {
+        height: 260px;
+        width: 390px;
+    }
+    
+    .a-card {
+        height: 540px;
+        width: 390px;
+    }
+    
+    .ac-img {
+        object-fit: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 450px;
+        width: 390px;
+    }
+    
+    .acm-img  {
+        object-fit: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 200px;
+        width: 390px;
+    }
+    
+    .ac-text {
+        margin: 10px;
+    }
+    
+    .acm-text {
+        margin: 10px;
+    }
+    
+    .ac-box {
+        display: flex;
+        align-items: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: #e6e6e6;
+        height: 100px;
+        width: 390px;
+        margin-top: -6px;
+    }
+    
+    .acm-box {
+        display: flex;
+        align-items: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        background-color: #e6e6e6;
+        height: 60px;
+        width: 390px;
+        margin-top: -6px;
+    }
+    
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        background-color: #e6e6e6;
+        margin-top: 20px;
+    }
+    
+    .link {
+        margin-top: 20px;
+    }
+    
+    .propo {
+        margin-left: 100px;
+    }
+    
+    .Hebergement {
+        margin-left: 200px;
+    }
+    
+    .assistance {
+        margin-left: 300px;
+    }
+}
