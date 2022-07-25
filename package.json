@@ -1,0 +1,19 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "OCR dev",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch .assets\styles\styles.scss:.assets\styles\styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeBR06-dev/OCR-dev.git"
+  },
+  "author": "luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukeBR06-dev/OCR-dev/issues"
+  },
+  "homepage": "https://github.com/lukeBR06-dev/OCR-dev#readme"
+}
