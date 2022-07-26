@@ -1,11 +1,22 @@
 @charset "UTF-8";
 @media screen and (min-width: 992px) {
   html {
-    font-size: 25px;
     font-family: "Raleway", sans-serif;
   }
   body {
     margin-top: 0;
+    margin-left: 55px;
+    margin-right: 50px;
+  }
+  .intro {
+    margin-top: 25px;
+  }
+  .intro-first {
+    font-size: 22px;
+  }
+  .intro-second {
+    font-size: 16px;
+    margin-top: 12px;
   }
   .header {
     display: flex;
@@ -19,6 +30,11 @@
   .header a:focus {
     color: black;
     border-top: solid 3px #0065fc;
+  }
+  .booki-logo {
+    height: 44px;
+    margin-top: 45px;
+    margin-left: 15px;
   }
   .head {
     display: flex;
@@ -39,42 +55,47 @@
     color: black;
   }
   .search {
-    margin-top: 20px;
-    height: 64px;
+    margin-top: 19px;
+    height: 50px;
     width: 521px;
     background-color: #e6e6e6;
     border-radius: 10px;
   }
   .search-bare {
-    height: 60px;
-    width: 340px;
-    font-size: 30px;
-    margin-top: 2px;
-    margin-left: 64px;
-    padding-left: 25px;
+    height: 50px;
+    width: 235px;
+    font-size: 17px;
+    margin-left: 51px;
+    padding-left: 17px;
     border: hidden;
+  }
+  .search-bare ::-moz-placeholder {
+    font-weight: bold;
+  }
+  .search-bare :-ms-input-placeholder {
+    font-weight: bold;
+  }
+  .search-bare ::placeholder {
+    font-weight: bold;
   }
   .search-bt {
     background-color: #0065FC;
-    margin-top: 2px;
-    height: 60px;
-    width: 115px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 51px;
+    width: 136px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 17px;
     border: hidden;
     position: absolute;
     color: white;
-    font-size: 20px;
+    font-size: 19px;
   }
   .recherche-logo {
     display: none;
   }
   .position-logo {
-    margin-top: 2px;
-    margin-left: 2px;
-    height: 58px;
-    width: 58px;
-    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    font-size: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -400,12 +421,6 @@
     justify-content: center;
     align-items: center;
     margin-left: 20px;
-  }
-  .booki-logo {
-    display: none;
-  }
-  .booki-logo1 {
-    display: block;
   }
   /* Hébergements */
   .Heb {
